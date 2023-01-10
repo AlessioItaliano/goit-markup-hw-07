@@ -1,4 +1,11 @@
-@import "./utils/vars";
-@import "./base/reset";
-@import "./components/buttons";
-@import "./components/footer";
+// Utils
+@import "./utils/index";
+
+// Base
+@import "./base/index";
+
+// Components
+@import "./components/index";
+
+// Layout
+@import "./layout/index";

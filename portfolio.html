@@ -10,15 +10,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <!-- Шрифти -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
     <!-- Стилі -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--Шапка сторінки-->
@@ -75,7 +68,7 @@
           <!--Фільтр-->
           <ul class="portfolio__filter">
             <li>
-              <button type="button" class="btn btn-small">Усе</button>
+              <button type="button" class="btn-small">Усе</button>
             </li>
             <li>
               <button type="button" class="btn btn-small">Веб-сайти</button>
@@ -327,7 +320,7 @@
           <div class="footer__address-list">
             <a href="./index.html" class="logo footer__logo">
               <span>Web</span
-              ><span class="logo__secondary-cl--inverse">Studio</span>
+              ><span class="footer__logo--inverse-cl">Studio</span>
             </a>
             <address>
               <ul class="address">
@@ -356,32 +349,32 @@
           </div>
 
           <!-- Соціальні мережі компанії -->
-          <div class="company__socials">
-            <h2 class="footer__title">приєднуйтесь</h2>
-            <ul class="socials footer__socials">
+          <div class="footer-socials">
+            <h2 class="footer-socials__title">приєднуйтесь</h2>
+            <ul class="socials footer-socials-list">
               <li class="socials__item">
-                <a class="socials__link socials__link--dark" href="#">
+                <a class="socials__link footer-socials__link" href="#">
                   <svg width="20" height="20">
                     <use href="./images/icons/icons.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="socials__item">
-                <a class="socials__link socials__link--dark" href="#">
+                <a class="socials__link footer-socials__link" href="#">
                   <svg width="20" height="20">
                     <use href="./images/icons/icons.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
               <li class="socials__item">
-                <a class="socials__link socials__link--dark" href="#">
+                <a class="socials__link footer-socials__link" href="#">
                   <svg width="20" height="20">
                     <use href="./images/icons/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
               <li class="socials__item">
-                <a class="socials__link socials__link--dark" href="#">
+                <a class="socials__link footer-socials__link" href="#">
                   <svg width="20" height="20">
                     <use href="./images/icons/icons.svg#icon-linkedin"></use>
                   </svg>
@@ -392,7 +385,7 @@
 
           <!-- Форма підписки -->
           <form class="subscription">
-            <h3 class="footer__title">Підпишіться на розсилку</h3>
+            <h3 class="subscription__title">Підпишіться на розсилку</h3>
             <div class="subscription__item">
               <input
                 class="subscription__box"
